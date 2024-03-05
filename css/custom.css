@@ -1,0 +1,15 @@
+.bg-header{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,0,0,.8), rgba(0,0,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.cart-button-gb-color{
+    background: rgb(243, 197, 112);
+}
+.nav-link{
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out 300ms;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(243, 197, 112);
+}
