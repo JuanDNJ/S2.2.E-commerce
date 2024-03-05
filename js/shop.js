@@ -31,7 +31,7 @@ async function buy(id) {
     cart.map((product) => product.id === id && product.quantity++);
   }
   count_product.innerHTML = cart.length;
-  console.log(cart);
+
 }
 
 // Exercise 2
